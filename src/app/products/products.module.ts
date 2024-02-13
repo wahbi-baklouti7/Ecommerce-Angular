@@ -8,6 +8,7 @@ import { EditproductComponent } from './editproduct/editproduct.component';
 import { ListarticletableComponent } from './listarticletable/listarticletable.component';
 import { DataTablesModule } from 'angular-datatables';
 import { FormsModule } from '@angular/forms';
+import { ArticlecartComponent } from './articlecart/articlecart.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     CreateproductComponent,
     EditproductComponent,
     ListarticletableComponent,
+    ArticlecartComponent,
     
   ],
   imports: [
