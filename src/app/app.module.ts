@@ -8,6 +8,7 @@ import { CategoriesModule } from './categories/categories.module';
 import { HttpClientModule } from '@angular/common/http';
 import { DataTablesModule } from 'angular-datatables';
 import { MenuComponent } from './menu/menu.component';
+import { AuthentificationModule } from './authentification/authentification.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MenuComponent } from './menu/menu.component';
     ProductsModule,
     CategoriesModule,
     HttpClientModule,
-    DataTablesModule
+    DataTablesModule,
+    AuthentificationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
